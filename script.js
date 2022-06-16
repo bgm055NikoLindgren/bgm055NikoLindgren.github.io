@@ -15302,7 +15302,7 @@ const guessGrid = document.querySelector("[data-guess-grid]")
 const offsetFromDate = new Date(2022, 4, 5) // staring day now is 5th of may 2022
 const msOffset = Date.now() - offsetFromDate
 const dayOffset = msOffset / 1000 / 60 / 60 / 24  // this converts ms to days
-const oikeaSana = "games" //kohdeSanat[Math.floor(dayOffset)] // rounds the number down
+const oikeaSana = "james" //kohdeSanat[Math.floor(dayOffset)] // rounds the number down
 
 // in the oikeaSana, you can easily just put a word you like to use, just also remember to add it to kohdeSanat and vaaratSanat
 // Ä, Ö or Å or orothers dont work
